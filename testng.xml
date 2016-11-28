@@ -8,7 +8,7 @@
 
     <test name="Calc test" preserve-order="true">
         <classes>
-            <class name="com.qatestlab.twit.TestLoginPage">
+            <class name="com.qatestlab.calc.TestCalcPage">
 
             </class>
             <!--<class name="com.qatestlab.twit.TestTwitRange">-->

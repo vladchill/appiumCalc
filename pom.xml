@@ -17,10 +17,15 @@
     </properties>
 
     <dependencies>
+        <!--<dependency>-->
+            <!--<groupId>org.seleniumhq.selenium</groupId>-->
+            <!--<artifactId>selenium-java</artifactId>-->
+            <!--<version>${selenium.version}</version>-->
+        <!--</dependency>-->
         <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>${selenium.version}</version>
+            <groupId>io.appium</groupId>
+            <artifactId>java-client</artifactId>
+            <version>4.1.1</version>
         </dependency>
         <dependency>
             <groupId>org.testng</groupId>
@@ -73,6 +78,7 @@
                     <systemPropertyVariables>
                         <driver.exe.chrome>${project.build.outputDirectory}${file.separator}chromedriver.exe</driver.exe.chrome>
                         <driver.exe.ie>${project.build.outputDirectory}${file.separator}IEDriverServer.exe</driver.exe.ie>
+                        <calc.path>${project.build.outputDirectory}${file.separator}Calculator+v5.1.1.apk</calc.path>
                     </systemPropertyVariables>
                     <properties>
                         <property>
