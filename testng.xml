@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Appium Calc Test" verbose="1">
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter" />
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+        <!--<listener class-name="utils.TestListenerCustom" />-->
+    </listeners>
+
+    <test name="Calc test" preserve-order="true">
+        <classes>
+            <class name="com.qatestlab.twit.TestLoginPage">
+
+            </class>
+            <!--<class name="com.qatestlab.twit.TestTwitRange">-->
+                <!--&lt;!&ndash;<methods>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<include name="testEmailSendReceive"/>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<include name="testChangeWindowsFocus"/>&ndash;&gt;-->
+                <!--&lt;!&ndash;</methods>&ndash;&gt;-->
+            <!--</class>-->
+        </classes>
+    </test>
+
+</suite>
